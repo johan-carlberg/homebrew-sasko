@@ -16,6 +16,6 @@ class TkeySignerapp < Formula
 
   def install
     system "make", "apps"
-    bin.install "apps/signerapp/app.bin"
+    bin.install "apps/signer/app.bin"
   end
 end
